@@ -1,0 +1,25 @@
+qa-automation-java/
+│
+├── pom.xml
+├── testng.xml
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── pages/
+│   │       │   ├── LoginPage.java
+│   │       │   ├── ProductsPage.java
+│   │       │   ├── CartPage.java
+│   │       │   └── CheckoutPage.java
+│   │       └── utils/
+│   │           └── DriverFactory.java
+│   │
+│   └── test/
+│       └── java/
+│           └── tests/
+│               ├── BaseTest.java
+│               ├── LoginTest.java
+│               ├── CartTest.java
+│               └── CheckoutTest.java
+│
+└── reports/
